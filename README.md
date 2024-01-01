@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-There are two Python conversion functions which convert from the ASCII based .girr format to the binary Broadlink format:
+There are two Python conversion functions which convert from the ASCII based .girr format to the binary Broadlink format and vice versa:
 1. girr_raw_to_broadlink(modulation_freq_khz, girr_raw)
 2. broadlink_to_girr_raw(broadlink_packet)
 

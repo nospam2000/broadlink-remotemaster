@@ -1,11 +1,12 @@
 # broadlink-remotemaster
 Send IR commands via Broadlink RM3 / RM4 from RemoteMaster code definitions (IrScrutinizer .girr format)
+This repo contains two functions to map from the .girr format used by the mentioned tools to the Broadlink format for an easy exchange.
 
 RemoteMaster and its ecosystem define the IR codes with a high level DSL. It is mainly used to configure the OFA (One For All) IR remote controls.
 You can find lots of codes for many devices and there is a great active community in [the JP1 Forum](http://www.hifi-remote.com/forums/)
 There are also lots of tools like IrScrutinizer which help customizing your remote control.
 
-This repo contains two functions to map from the .girr format used by the mentioned tools to the Broadlink format for an easy exchange.
+[Here](http://www.hifi-remote.com/forums/dload.php?action=file&file_id=13367) you can find a Denon X4000 .rmdu file which can be converted to .girr format using RemoteMaster. You need to create an account to be able to download the file.
 
 ## Installation
 
